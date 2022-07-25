@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-const Post = () => {
+const Post = ({ addToCart }) => {
   const router = useRouter();
   const { slug } = router.query;
   const [pin, setPin] = useState();
@@ -69,7 +70,12 @@ const Post = () => {
               <span className="title-font font-medium text-2xl text-gray-900">
                 $300.00
               </span>
-              <button className="flex mx-4 text-white bg-pink-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+              <button
+                onClick={() => {
+                  addToCart(slug, 1, 300, "Pink Shirt", "XL", "Red");
+                }}
+                className="flex mx-4 text-white bg-pink-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+              >
                 Add to Cart
               </button>
             </div>

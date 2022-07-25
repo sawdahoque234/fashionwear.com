@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 
@@ -6,9 +7,9 @@ const Cloths = () => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container px-6 py-24 mx-auto">
-          <div className="flex flex-wrap -m-4 ">
+          <div className="flex flex-wrap justify-center ">
             <Link href={"/products/clothsdetails"}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-7 cursor-pointer">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-5 cursor-pointer">
                 <a className="block relative  rounded overflow-hidden">
                   <img
                     alt="ecommerce"
@@ -29,7 +30,7 @@ const Cloths = () => {
               </div>
             </Link>
             <Link href={"/products/clothsdetails"}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-7 cursor-pointer">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-5 cursor-pointer">
                 <a className="block relative  rounded overflow-hidden">
                   <img
                     alt="ecommerce"
@@ -50,7 +51,7 @@ const Cloths = () => {
               </div>
             </Link>
             <Link href={"/products/clothsdetails"}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-7 cursor-pointer">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-5 cursor-pointer">
                 <a className="block relative  rounded overflow-hidden">
                   <img
                     alt="ecommerce"
@@ -71,7 +72,7 @@ const Cloths = () => {
               </div>
             </Link>
             <Link href={"/products/clothsdetails"}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-7 cursor-pointer">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-5 cursor-pointer">
                 <a className="block relative  rounded overflow-hidden">
                   <img
                     alt="ecommerce"
@@ -92,7 +93,7 @@ const Cloths = () => {
               </div>
             </Link>
             <Link href={"/products/clothsdetails"}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-7 cursor-pointer">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-5 cursor-pointer">
                 <a className="block relative  rounded overflow-hidden">
                   <img
                     alt="ecommerce"
@@ -113,7 +114,7 @@ const Cloths = () => {
               </div>
             </Link>
             <Link href={"/products/clothsdetails"}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-7 cursor-pointer">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full shadow-lg m-5 cursor-pointer">
                 <a className="block relative  rounded overflow-hidden">
                   <img
                     alt="ecommerce"

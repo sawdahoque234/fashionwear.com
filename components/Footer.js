@@ -14,9 +14,11 @@ const Footer = () => {
               </a>
             </Link>
             <p className="mt-2 text-sm text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              corrupti animi excepturi temporibus doloremque sit ab tempore
-              voluptate nesciunt vitae.
+              Online Shopping BD has never been easier. Fashion.com.bd is best
+              online shopping store in Bangladesh that features 10+ million
+              products at affordable prices. As bangaldesh online shopping
+              landscape is expanding every year, Fashion is among best websites
+              for online shopping in bangladesh
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
@@ -26,19 +28,31 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10 cursor-pointer">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Cloths</a>
+                  <Link href={"/cloths"}>
+                    <a className="text-gray-600 hover:text-gray-800">Cloths</a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Hoodies</a>
+                  <Link href={"/hoodies"}>
+                    <a className="text-gray-600 hover:text-gray-800">Hoodies</a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Shoes</a>
+                  <Link href={"/shoes"}>
+                    <a className="text-gray-600 hover:text-gray-800">Shoes</a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Watch</a>
+                  <Link href={"/watch"}>
+                    <a className="text-gray-600 hover:text-gray-800">Watch</a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Jewellery</a>
+                  <Link href={"/jewellery"}>
+                    <a className="text-gray-600 hover:text-gray-800">
+                      Jewellery
+                    </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">Beauty</a>
@@ -70,12 +84,18 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10 cursor-pointer">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">About us</a>
+                  <Link href={"/about"}>
+                    <a className="text-gray-600 hover:text-gray-800">
+                      About us
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    COntact us
-                  </a>
+                  <Link href={"/contact"}>
+                    <a className="text-gray-600 hover:text-gray-800">
+                      Contact us
+                    </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">Careers</a>
