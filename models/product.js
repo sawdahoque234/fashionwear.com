@@ -11,7 +11,7 @@ const ProductSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-    description: {
+    desc: {
       type: String,
       required: true,
     },
