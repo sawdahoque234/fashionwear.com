@@ -180,7 +180,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, subTotal, clearCart }) => {
             })}
           </ol>
           <div className="pt-10 text-center font-semibold text-xl">
-            SubTotal : ${subTotal}
+            Subtotal:{subTotal ? subTotal : 0}
           </div>
         </div>
         <div className="lg:w-1/2 mx-auto  flex justify-center">

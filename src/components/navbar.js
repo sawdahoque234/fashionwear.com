@@ -45,6 +45,11 @@ const Navbar = ({ cart, addToCart, clearCart, removeFromCart, subTotal }) => {
           </span>
         </Link>
       </nav>
+      <Link href="/login">
+        <button className="lg:mt-0 mt-2  font-semibold text-white  bg-pink-700 border-0 py-2 px-3 focus:outline-none hover:bg-green-600 rounded text-sm">
+          Login
+        </button>
+      </Link>
       <span
         onClick={toggleCart}
         className="cart cursor-pointer inline-flex items-center text-pink-700 border-0 py-1 px-3 focus:outline-none  rounded text-2xl mt-4 md:mt-0"
@@ -106,7 +111,9 @@ const Navbar = ({ cart, addToCart, clearCart, removeFromCart, subTotal }) => {
             );
           })}
         </ol>
-        <div className="my-2 font-mono font-bold">Subtotal:{subTotal}</div>
+        <div className="my-2 font-mono font-bold">
+          Subtotal:{subTotal ? subTotal : 0}Taka
+        </div>
         <div className="flex mt-6 ">
           <Link href={"/checkout"}>
             <span>
