@@ -46,7 +46,7 @@ const Navbar = ({ cart, addToCart, clearCart, removeFromCart, subTotal }) => {
         </Link>
       </nav>
       <Link href="/login">
-        <button className="lg:mt-0 mt-2  font-semibold text-white  bg-pink-700 border-0 py-2 px-3 focus:outline-none hover:bg-green-600 rounded text-sm">
+        <button className="lg:mt-0 mt-2  font-semibold text-white  bg-pink-700 border-0 py-2 px-3 focus:outline-none  rounded text-sm">
           Login
         </button>
       </Link>
@@ -117,14 +117,14 @@ const Navbar = ({ cart, addToCart, clearCart, removeFromCart, subTotal }) => {
         <div className="flex mt-6 ">
           <Link href={"/checkout"}>
             <span>
-              <button className="   text-white  bg-pink-700 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm">
+              <button className="   text-white  bg-pink-700 border-0 py-2 px-4 focus:outline-none rounded text-sm">
                 Checkout
               </button>
             </span>
           </Link>
           <button
             onClick={clearCart}
-            className="  text-white bg-pink-700 border-0 py-2 px-3 mx-4 focus:outline-none hover:bg-green-600 rounded text-sm"
+            className="  text-white bg-pink-700 border-0 py-2 px-3 mx-4 focus:outline-none0 rounded text-sm"
           >
             Clear Cart
           </button>

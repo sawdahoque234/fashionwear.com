@@ -185,17 +185,17 @@ const Checkout = ({ cart, addToCart, removeFromCart, subTotal, clearCart }) => {
         </div>
         <div className="lg:w-1/2 mx-auto  flex justify-center">
           <div className="flex mt-6 ">
-            <Link href={"/checkout"}>
-              <button className="   text-white  bg-pink-700 border-0 py-3 px-4 focus:outline-none hover:bg-pink-600 rounded text-sm">
-                Checkout
-              </button>
-            </Link>
             <button
               onClick={clearCart}
               className="  text-white bg-pink-700 border-0 py-3 px-3 mx-4 focus:outline-none hover:bg-pink-600 rounded text-sm"
             >
               Clear Cart
             </button>
+            <Link href={"/order"}>
+              <button className="   text-white  bg-pink-700 border-0 py-3 px-4 focus:outline-none hover:bg-pink-600 rounded text-sm">
+                Pay
+              </button>
+            </Link>
           </div>
         </div>
       </div>

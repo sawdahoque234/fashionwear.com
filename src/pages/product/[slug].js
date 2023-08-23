@@ -74,7 +74,7 @@ const Post = ({ addToCart }) => {
                 onClick={() => {
                   addToCart(slug, 1, 300, "Pink Shirt", "XL", "Red");
                 }}
-                className="flex mx-4 text-white bg-pink-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+                className="flex mx-4 text-white bg-pink-700 border-0 py-2 px-6 focus:outline-none  rounded"
               >
                 Add to Cart
               </button>
@@ -98,7 +98,7 @@ const Post = ({ addToCart }) => {
                 </div>
                 <button
                   onClick={checkServiceCode}
-                  className="inline-flex text-white bg-pink-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+                  className="inline-flex text-white bg-pink-700 border-0 py-2 px-6 focus:outline-none  rounded"
                 >
                   Check
                 </button>
